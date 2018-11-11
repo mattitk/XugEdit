@@ -4,8 +4,8 @@
 #define __XUGEDIT_H__
 
 #include <vector>
-#include "ui/XugTab.h"
-#include "ui/XugWindow.h"
+#include "XugTab.h"
+#include "XugWindow.h"
 
 class XugEdit
 {
@@ -29,9 +29,9 @@ class XugEdit
 		}
 		~XugEdit()
 		{
-			if(windows.size()>0)
+			if(windows.size() > 0)
 			{
-				for(int i = 0; i < windows.size(); i++)
+				for(unsigned int i = 0; i < windows.size(); i++)
 				{
 					delete(windows[i]);
 				}

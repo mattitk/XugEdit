@@ -1,8 +1,7 @@
 #ifndef __XUGWINDOW_H__
 #define __XUGWINDOW_H__
 
-#include "../global/XugEditManager.h"
-#include "XugTab.h"
+#include "global/XugEditManager.h"
 
 class XugWindow
 {
@@ -13,6 +12,7 @@ class XugWindow
 		XugWindow();
 		~XugWindow();
 		unsigned int GetTabCount();
+		bool ConfirmShutDown();
 };
 
 #endif

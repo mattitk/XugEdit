@@ -23,6 +23,6 @@ class XugEditManager
 		}
 };
 
-XugEditManager xugEditMaanger;
+//XugEditManager xugEditManager;
 
 #endif
