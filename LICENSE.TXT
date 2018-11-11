@@ -1,0 +1,8 @@
+// XugEdit, project started in 2001 and being rebooted now in 2018
+//
+// You may modify and use software freely a for personal and educational purposes.
+// Using software for illegimate or deceptive purposes is strictly forbidden.
+//
+// For possible commercial use, feel free to contact me at:
+// xug @ ircnet, makaupp@gmail.com
+
